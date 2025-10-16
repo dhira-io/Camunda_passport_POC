@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "label": "Documents verified",
+      "values": [
+        {
+          "label": "Done",
+          "value": "Done"
+        },
+        {
+          "label": "In-progress",
+          "value": "In-progress"
+        },
+        {
+          "label": "Yet to Start",
+          "value": "Yet to Start"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1vlgm2x",
+        "columns": null
+      },
+      "id": "Field_16xy3j6",
+      "key": "documents_Verified"
+    },
+    {
+      "label": "Police Verification",
+      "values": [
+        {
+          "label": "Done",
+          "value": "Done"
+        },
+        {
+          "label": "Not Yet",
+          "value": "Not Yet"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1vqaq4j",
+        "columns": null
+      },
+      "id": "Field_0r7unmx",
+      "key": "police_Verification"
+    },
+    {
+      "label": "CounterB Approval Status",
+      "values": [
+        {
+          "label": "Accept",
+          "value": "Accept"
+        },
+        {
+          "label": "Reject",
+          "value": "Reject"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_115mwl5",
+        "columns": null
+      },
+      "id": "Field_113b7q0",
+      "key": "B_Approval_Status"
+    },
+    {
+      "label": "If Reject than reason",
+      "values": [
+        {
+          "label": "Send to Reviewer",
+          "value": "Reviewer"
+        },
+        {
+          "label": "Send to Esclation",
+          "value": "Esclation"
+        },
+        {
+          "label": "Send back to CounterA",
+          "value": "CounterA"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1noh0rs",
+        "columns": null
+      },
+      "id": "Field_0p3r7mj",
+      "key": "B_Reject_Reason"
+    }
+  ],
+  "type": "default",
+  "id": "CounterBForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}

@@ -1,0 +1,44 @@
+Scenario 1 – Normal (General) Passport
+Required Documents (any 2 minimum)
+Proof of Address (Aadhaar, Voter ID, Electricity Bill, etc.)
+Proof of Date of Birth (Birth Certificate, 10th Marksheet, PAN Card, etc.)
+Conditions (3 typical ones)
+Applicant must be an Indian citizen.
+Applicant must not have pending criminal cases.
+Police verification will be mandatory before issue.
+
+BPMN Steps for PSK Passport Processing
+Applicant arrives at PSK, passes through security check.
+
+Token is issued; applicant waits for their number to be called.
+
+Counter A: Biometric data collected, documents scanned, fee paid, and signature captured.
+
+Counter B: Documents verified for completeness and correctness by Verification Officer.
+
+Counter C: Granting Officer reviews and approves or rejects the application.
+
+If approved, the system initiates passport printing and dispatch; else, a rework or escalation task is triggered based on gateway decision
+
+
+Document Validation	---Original and copies verified by officials 	Authenticity, completeness, no discrepancy 
+Biometric Data	-- Photograph and fingerprints captured 	Matches applicant, not impersonated
+Police Verification--	Home visit by local police 	Address, criminal record, supplied data
+Granting Decision	---Granting officer reviews and approves 	All checks cleared, supplementary info verified 
+Passport Dispatch--
+
+
+Online application form --> Token generated -->
+   counter A--->accept-->Counter B
+   Counter A--> Reject-->Reviewer or Esclation task
+   
+   counter B--->accept-->Counter C
+   Counter B--> Reject-->Reviewer or Counter A based on reason or Esclation task
+   
+   counter C--->accept--> PassportDispatch
+   Counter C--> Reject--> Reviewer or Counter B or A or Esclation Task
+   
+   Reviewer --> accept --> with reason back to whom send task to reviewer
+   Reviewer --> Reject--> Esclation task
+   
+   

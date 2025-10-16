@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "label": "Biometric data",
+      "values": [
+        {
+          "label": "Collected",
+          "value": "Collected"
+        },
+        {
+          "label": "In-progress",
+          "value": "In-progress"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_14fdd2q",
+        "columns": null
+      },
+      "id": "Field_1tia4yz",
+      "key": "biometric_Data"
+    },
+    {
+      "label": "documents scanned",
+      "values": [
+        {
+          "label": "Attached",
+          "value": "Attached"
+        },
+        {
+          "label": "Not Attached",
+          "value": "Not Attached"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0ytylnf",
+        "columns": null
+      },
+      "id": "Field_1dz4rg8",
+      "key": "Documents_Scanned"
+    },
+    {
+      "label": "fee paid",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_17jp617",
+        "columns": null
+      },
+      "id": "Field_17p6mda",
+      "key": "fee_Paid"
+    },
+    {
+      "label": "signature captured",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1sbniwl",
+        "columns": null
+      },
+      "id": "Field_11xq7e9",
+      "key": "signature_Captured"
+    },
+    {
+      "label": "CounterA Approval Status",
+      "values": [
+        {
+          "label": "Accept",
+          "value": "Accept"
+        },
+        {
+          "label": "Reject",
+          "value": "Reject"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1koq3hq",
+        "columns": null
+      },
+      "id": "Field_0p3jiik",
+      "key": "A_Approval_Status"
+    },
+    {
+      "label": "If Reject then Reason",
+      "values": [
+        {
+          "label": "Send to Reviewer",
+          "value": "Reviewer"
+        },
+        {
+          "label": "Send to Esclation",
+          "value": "Esclation"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1jx5jd5",
+        "columns": null
+      },
+      "id": "Field_1k5xqg2",
+      "key": "A_Reject_Reason"
+    }
+  ],
+  "type": "default",
+  "id": "CounterAForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}

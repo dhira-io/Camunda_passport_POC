@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "label": "Granting Officer reviews",
+      "values": [
+        {
+          "label": "Done",
+          "value": "Done"
+        },
+        {
+          "label": "In-progress",
+          "value": "In-progress"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1uotn9k",
+        "columns": null
+      },
+      "id": "Field_0hjvqw7",
+      "key": "granting_Officer_reviews"
+    },
+    {
+      "label": "CounterC Approval Status",
+      "values": [
+        {
+          "label": "Accept",
+          "value": "Accept"
+        },
+        {
+          "label": "Reject",
+          "value": "Reject"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1whesdv",
+        "columns": null
+      },
+      "id": "Field_1x6249l",
+      "key": "C_Approval_Status"
+    },
+    {
+      "label": "If Reject than reason",
+      "values": [
+        {
+          "label": "Send to Reviewer",
+          "value": "Reviewer"
+        },
+        {
+          "label": "Send to Esclation",
+          "value": "Esclation"
+        },
+        {
+          "label": "Send to CounterA",
+          "value": "CounterA"
+        },
+        {
+          "label": "Send to CounterB",
+          "value": "CounterB"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0rld4gc",
+        "columns": null
+      },
+      "id": "Field_0eaujny",
+      "key": "B_Reject_Reason"
+    }
+  ],
+  "type": "default",
+  "id": "CounterCForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}

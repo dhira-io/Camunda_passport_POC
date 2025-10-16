@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "Reviewer Comments",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0mj22rh",
+        "columns": null
+      },
+      "id": "Field_1i1trt0",
+      "key": "textarea_otx2w"
+    },
+    {
+      "label": "Reviewer Approval Status",
+      "values": [
+        {
+          "label": "Accept",
+          "value": "Accept"
+        },
+        {
+          "label": "Reject",
+          "value": "Reject"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1lbzwpc",
+        "columns": null
+      },
+      "id": "Field_0hsrnt1",
+      "key": "R_Approval_Status"
+    }
+  ],
+  "type": "default",
+  "id": "ReviewerForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}

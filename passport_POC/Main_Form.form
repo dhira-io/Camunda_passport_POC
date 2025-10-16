@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "label": "Appilcant Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0mct6tz",
+        "columns": null
+      },
+      "id": "Field_1cctkgj",
+      "key": "applicantName",
+      "disabled": false,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Document Type",
+      "values": [
+        {
+          "label": "Aadhaar",
+          "value": "Aadhaar"
+        },
+        {
+          "label": "Passport",
+          "value": "Passport"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_15qnw63",
+        "columns": null
+      },
+      "id": "Field_01s77fc",
+      "key": "documentType",
+      "defaultValue": "value",
+      "searchable": false,
+      "disabled": false
+    },
+    {
+      "label": "Document Validity",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0yrg7au",
+        "columns": null
+      },
+      "id": "Field_0dukygu",
+      "key": "documentValidity"
+    },
+    {
+      "label": "Slot Available",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_04bp5ru",
+        "columns": null
+      },
+      "id": "Field_0918k2u",
+      "key": "slotAvailable"
+    },
+    {
+      "label": "Location",
+      "values": [
+        {
+          "label": "Chennai",
+          "value": "Chennai"
+        },
+        {
+          "label": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "label": "Hyderabad",
+          "value": "Hyderabad"
+        },
+        {
+          "label": "Patna",
+          "value": "Patna"
+        },
+        {
+          "label": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "label": "Other Cities",
+          "value": "Others"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0lx47ir",
+        "columns": null
+      },
+      "id": "Field_0madb41",
+      "key": "location"
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "layout": {
+        "row": "Row_0l8f4b3",
+        "columns": null
+      },
+      "id": "Field_1ks20s8",
+      "key": "applicantAge"
+    }
+  ],
+  "type": "default",
+  "id": "Main_Form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}
